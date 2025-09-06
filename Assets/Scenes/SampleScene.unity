@@ -1114,8 +1114,9 @@ GameObject:
   - component: {fileID: 1562495629}
   - component: {fileID: 1562495628}
   - component: {fileID: 1562495627}
-  - component: {fileID: 1562495625}
   - component: {fileID: 1562495631}
+  - component: {fileID: 1562495625}
+  - component: {fileID: 1562495632}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1264,6 +1265,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1562495632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562495624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadd6e92cd76b5049b8935d377601f5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foundationPrefab: {fileID: 8665970636254232228, guid: 9380d7e1e38e8a946b6bb5fc44521ef6, type: 3}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  maxBuildDistance: 10
+  snapDistance: 1
 --- !u!1 &1755114556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,7 +1402,7 @@ GameObject:
   - component: {fileID: 2083201537}
   - component: {fileID: 2083201536}
   - component: {fileID: 2083201535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
