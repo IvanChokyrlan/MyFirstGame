@@ -102,6 +102,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 selectionO.GetComponent<Renderer>().material = originalMaterial;
                 selectionO = null;
+               
             }
 
             // Випускаємо промінь
