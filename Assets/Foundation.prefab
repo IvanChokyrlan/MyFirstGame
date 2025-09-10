@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 657821448024097153}
   - component: {fileID: 9069843183278926145}
   - component: {fileID: 3647374540700978186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Foundation
   m_TagString: Foundation
   m_Icon: {fileID: 0}
